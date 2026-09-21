@@ -153,7 +153,7 @@
 #                         Companies & Brands
 # ═══════════════════════════════════════════════════════════════
 
-/胖东来|于东来/ => 胖东来
+/芯片设计/数字芯片/模拟芯片 => 长鑫
 
 /深度求索|幻方量化|梁文锋|\bDeepSeek\b/ => DeepSeek
 
@@ -167,14 +167,6 @@
 
 /智元|灵犀|稚晖君|彭志辉|AgiBot/ => Agibot Robotics
 /众擎|EngineAI|赵同阳/ => EngineAI Robotics
-
-/黑神话|冯骥/ => Black Myth: Wukong
-
-/影之刃零|梁其伟/ => Blade of Fate
-
-/三体|流浪地球|刘慈欣|郭帆/ => Three-Body / Wandering Earth
-
-申奥
 
 /京东|刘强东|\bJD\b|\bJingdong\b/ => JD.com
 
@@ -207,7 +199,7 @@
 
 [East Asia]
 日本
-朝鲜
+新加坡
 韩国
 
 [North America]
@@ -217,6 +209,7 @@
 [Western Europe]
 法国
 英国
+德国
 
 /俄罗斯|俄国/ => Russia
 
