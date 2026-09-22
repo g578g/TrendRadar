@@ -153,111 +153,252 @@
 #                         企业与品牌
 # ═══════════════════════════════════════════════════════════════
 
-/金融|股市/ => 吴清
+[世界头部企业]
+/苹果|\bApple\b|微软|\bMicrosoft\b|谷歌|\bGoogle\b|\bAlphabet\b|亚马逊|\bAmazon\b|\bMeta\b|\bFacebook\b|特斯拉|\bTesla\b|英伟达|\bNVIDIA\b|\bOpenAI\b|\bSpaceX\b|台积电|\bTSMC\b|三星|\bSamsung\b|丰田|\bToyota\b|大众|\bVolkswagen\b|伯克希尔|\bBerkshire\b|摩根大通|\bJPMorgan\b|高盛|\bGoldman Sachs\b|沃尔玛|\bWalmart\b|强生|\bJohnson & Johnson\b|辉瑞|\bPfizer\b|空客|\bAirbus\b|波音|\bBoeing\b|洛克希德·马丁|\bLockheed Martin\b/ => 世界头部企业
 
-/深度求索|幻方量化|梁文锋|\bDeepSeek\b/ => DeepSeek
+[世界头部企业家]
+/马斯克|\bElon Musk\b|贝索斯|\bJeff Bezos\b|扎克伯格|\bMark Zuckerberg\b|库克|\bTim Cook\b|黄仁勋|\bJensen Huang\b|苏姿丰|\bLisa Su\b|萨提亚·纳德拉|\bSatya Nadella\b|桑达尔·皮查伊|\bSundar Pichai\b|山姆·奥特曼|\bSam Altman\b|巴菲特|\bWarren Buffett\b|比尔·盖茨|\bBill Gates\b|乔布斯|\bSteve Jobs\b|拉里·佩奇|\bLarry Page\b|谢尔盖·布林|\bSergey Brin\b/ => 世界头部企业家
 
-/华为|任正非|余承东|鸿蒙|海思|昇腾|鲲鹏|\bHUAWEI\b|\bHarmonyOS\b|\bHiSilicon\b/ => 华为
+[中国头部企业]
+/华为|比亚迪|京东|字节跳动|腾讯|小米|格力|福耀|宁德时代|吉利|美团|拼多多|网易|百度|\b360\b|\bDeepSeek\b|深度求索|宇树|大疆|胖东来|阿里巴巴|蚂蚁集团|中芯国际|京东方|中国移动|中国平安|招商银行|贵州茅台|五粮液|长江电力|中国石油|中国石化|国家电网|南方电网|中国商飞|中国航天|中航工业/ => 中国头部企业
 
-/比亚迪|王传福|方程豹|腾势|仰望|弗迪|刀片电池|云辇|\bBYD\b|\bDenza\b|\bYangwang\b/ => 比亚迪
+[中国头部企业家]
+/任正非|余承东|王传福|刘强东|张一鸣|梁汝波|马化腾|雷军|董明珠|曹德旺|曾毓群|李书福|王兴|黄峥|丁磊|李彦宏|周鸿祎|梁文锋|王兴兴|汪滔|于东来|马云|蔡崇信|李斌|何小鹏|李想|张小龙|张勇|王健林|钟睒睒|柳传志|杨元庆/ => 中国头部企业家
 
-/大疆|汪滔|灵眸|如影|\bDJI\b|\bRoboMaster\b|\bMavic\b|\bZenmuse\b/ => 大疆
+[科技领域头部企业]
+/苹果|微软|谷歌|亚马逊|\bMeta\b|英伟达|\bAMD\b|英特尔|台积电|三星|高通|博通|阿斯麦|\bASML\b|特斯拉|\bSpaceX\b|\bOpenAI\b|华为|腾讯|阿里巴巴|字节跳动|百度|小米|中芯国际|大疆|宁德时代|歌尔股份|兆易创新|纳芯微|南芯|矽力杰/ => 科技头部企业
 
-/宇树|王兴兴|\bUnitree\b/ => 宇树机器人
+[科技领域头部企业家]
+/库克|纳德拉|皮查伊|扎克伯格|黄仁勋|苏姿丰|马斯克|奥特曼|任正非|马化腾|张一鸣|雷军|李彦宏|梁文锋|王传福|汪滔|余承东|王兴兴|于东来/ => 科技头部企业家
 
-/智元|灵犀|稚晖君|彭志辉|AgiBot/ => 智元机器人
-/众擎|EngineAI|赵同阳/ => 众擎机器人
+[AI领域头部企业]
+/\bOpenAI\b|\bAnthropic\b|\bDeepSeek\b|深度求索|\bGoogle DeepMind\b|\bDeepMind\b|微软|\bMicrosoft\b|英伟达|\bNVIDIA\b|\bMeta\b|\bxAI\b|\bMistral\b|\bCohere\b|\bStability AI\b|百度|阿里巴巴|腾讯|字节跳动|商汤|旷视|科大讯飞|智谱|月之暗面|\bMiniMax\b|百川智能|零一万物|阶跃星辰|面壁智能|云从科技|依图科技/ => AI 领域头部企业
 
-/A股|上证指数|深证/ => 明星股票
+[AI领域头部企业家]
+/山姆·奥特曼|\bSam Altman\b|达里奥·阿莫代伊|\bDario Amodei\b|梁文锋|李彦宏|张一鸣|马化腾|雷军|李开复|周鸿祎|黄仁勋|\bJensen Huang\b|苏姿丰|\bLisa Su\b|埃隆·马斯克|\bElon Musk\b|杨植麟|王小川|李大海|姜大昕|朱啸虎/ => AI 领域头部企业家
 
-/芯片设计|数字芯片|模拟芯片/ => 芯片
+[芯片领域头部企业]
+/台积电|\bTSMC\b|英伟达|\bNVIDIA\b|\bAMD\b|英特尔|\bIntel\b|三星|\bSamsung\b|SK海力士|\bSK Hynix\b|美光|\bMicron\b|高通|\bQualcomm\b|博通|\bBroadcom\b|阿斯麦|\bASML\b|应用材料|\bApplied Materials\b|泛林|\bLam Research\b|中芯国际|\bSMIC\b|华虹|韦尔股份|北方华创|中微公司|澜起科技|兆易创新|纳芯微|南芯|矽力杰|歌尔|歌尔股份|紫光国微|卓胜微|圣邦股份|思瑞浦|士兰微|华润微|闻泰科技|三安光电|长电科技|通富微电|华天科技/ => 芯片领域头部企业
 
-/GPU|SOC|CPU|HBM|DRAM/ => 芯片/IC
+[芯片领域头部企业家]
+/黄仁勋|\bJensen Huang\b|苏姿丰|\bLisa Su\b|张忠谋|\bMorris Chang\b|梁孟松|魏哲家|陈福阳|\bHock Tan\b|任正非|余承东|赵海军|张汝京|尹志尧|虞仁荣|朱一明/ => 芯片领域头部企业家
 
-/兆易创新|纳芯微|南芯|矽力杰/ => IC
+[互联网领域头部企业]
+/谷歌|\bGoogle\b|\bMeta\b|\bFacebook\b|亚马逊|\bAmazon\b|微软|\bMicrosoft\b|苹果|\bApple\b|腾讯|阿里巴巴|字节跳动|百度|京东|美团|拼多多|网易|快手|滴滴|小红书|哔哩哔哩|B站|知乎|微博|携程|\bShopify\b|\bNetflix\b|\bUber\b|\bAirbnb\b|\bSnap\b|\bTwitter\b/ => 互联网头部企业
 
-github
+[互联网领域头部企业家]
+/马化腾|张一鸣|梁汝波|马云|蔡崇信|刘强东|王兴|黄峥|丁磊|李彦宏|张小龙|雷军|周鸿祎|扎克伯格|\bMark Zuckerberg\b|贝索斯|\bJeff Bezos\b|皮查伊|\bSundar Pichai\b|纳德拉|\bSatya Nadella\b|马斯克|\bElon Musk\b|杰克·多西|\bJack Dorsey\b/ => 互联网头部企业家
 
-/阿里|字节|腾讯|百度 => 互联网
+[车企领域头部企业]
+/特斯拉|\bTesla\b|比亚迪|\bBYD\b|丰田|\bToyota\b|大众|\bVolkswagen\b|奔驰|\bMercedes-Benz\b|宝马|\bBMW\b|奥迪|\bAudi\b|福特|\bFord\b|通用|\bGM\b|本田|\bHonda\b|日产|\bNissan\b|现代|\bHyundai\b|起亚|\bKia\b|\bRivian\b|\bLucid\b|蔚来|\bNIO\b|小鹏|\bXPeng\b|理想|\bLi Auto\b|小米汽车|吉利|长城|奇瑞|长安|赛力斯|问界|零跑|哪吒|极氪|领克|仰望|腾势|方程豹|广汽|上汽|一汽|东风|北汽/ => 车企头部企业
 
-/京东|刘强东|\bJD\b|\bJingdong\b/ => 京东
+[车企领域头部企业家]
+/马斯克|\bElon Musk\b|王传福|李书福|魏建军|李斌|何小鹏|李想|雷军|余承东|朱江明|张勇|丰田章男|\bAkio Toyoda\b|迪斯|\bHerbert Diess\b|奥博穆|\bOliver Blume\b|齐普策|\bOliver Zipse\b|康林松|\bOla Källenius\b|尹同跃|朱华荣|曾庆洪|陈虹/ => 车企头部企业家
 
-/字节|张一鸣|梁汝波|抖音|\bByteDance\b|\bTikTok\b|\bDouyin\b|\bLark\b|\bCapCut\b/ => 字节跳动
+[能源领域头部]
+/宁德时代|\bCATL\b|比亚迪|\bBYD\b|国家电网|南方电网|中石油|中石化|中海油|壳牌|\bShell\b|\bBP\b|沙特阿美|\bSaudi Aramco\b|埃克森美孚|\bExxonMobil\b|雪佛龙|\bChevron\b|道达尔|\bTotalEnergies\b|西门子能源|\bSiemens Energy\b|通用电气|\bGE\b|隆基绿能|通威|阳光电源|晶科能源|天合光能|亿纬锂能|国轩高科|特斯拉能源|\bTesla Energy\b|中国核电|中国广核|国家能源集团|华能|大唐|华电|三峡能源/ => 能源领域头部企业
 
-/腾讯|鹅厂|马化腾|微信|QQ|天美|阅文集团|微众银行|\bTencent\b|\bPony Ma\b|\bWeChat\b|\bLightSpeed\b|\bWeBank\b/ => 腾讯
+[能源领域头部企业家]
+/曾毓群|王传福|李振国|刘汉元|曹仁贤|高纪凡|王玉锁|张传卫|马斯克|\bElon Musk\b|钟宝申|瞿晓铧|朱共山/ => 能源领域头部企业家
 
-/qwen|minimax|glm/ => 国产开源模型
+[航天军工领域头部]
+/\bNASA\b|\bSpaceX\b|蓝色起源|\bBlue Origin\b|波音|\bBoeing\b|洛克希德·马丁|\bLockheed Martin\b|雷神|\bRaytheon\b|诺斯罗普·格鲁曼|\bNorthrop Grumman\b|通用动力|\bGeneral Dynamics\b|空客|\bAirbus\b|中国航天|中国航天科技|中国航天科工|中国商飞|\bCOMAC\b|中航工业|\bAVIC\b|中国船舶|中国兵器|中国电科|航天科工|航天科技|星河动力|蓝箭航天|星际荣耀|天兵科技|银河航天|长光卫星|北斗|嫦娥|天问|神舟|长征|歼|东风|航母|导弹|军演/ => 航天军工头部
 
-/特斯拉|马斯克|\bTesla\b|\bElon Musk\b|\bCybertruck\b|\bModel 3\b|\bModel Y\b|\bModel S\b|\bModel X\b|\bFSD\b/ => 特斯拉
+[航天军工企业家]
+/马斯克|\bElon Musk\b|张昌武|霍甲|舒畅|姚颂|米磊|吴伟仁|叶培建|孙泽洲|张柏楠|杨利伟/ => 航天军工企业家
 
-/英伟达|黄仁勋|\bNVIDIA\b|\bGeForce\b|\bRTX\b|\bCUDA\b|\bJensen Huang\b/ => 英伟达
-/苏姿丰|锐龙|霄龙|\bAMD\b|\bRyzen\b|\bEPYC\b|\bRadeon\b|\bLisa Su\b/ => AMD
 
-/微软|\bMicrosoft\b|\bWindows\b|\bAzure\b|\bSatya Nadella\b|\bCopilot\b/ => 微软
-/谷歌|皮查伊|安卓|油管|\bGoogle\b|\bAlphabet\b|\bAndroid\b|\bChrome\b|\bYouTube\b|\bGemini\b|\bDeepMind\b|\bWaymo\b/ => 谷歌
-/库克|\biPhone\b|\biPad\b|\bMacBook\b|\biOS\b|\bVision Pro\b|\bAirPods\b|\bApple\b|\bTim Cook\b/ => 苹果
+# ═══════════════════════════════════════════════════════════════
+#                         前沿科技
+# ═══════════════════════════════════════════════════════════════
 
-/\bOpenAI\b|\bChatGPT\b|\bSora\b|\bDALL-E\b|\bSam Altman\b|\bGreg Brockman\b/ => OpenAI
-/\bAnthropic\b|\bClaude\b|\bDario Amodei\b/ => Claude
+[前沿科技]
+量子
+量子计算
+量子通信
+量子芯片
+脑机
+脑机接口
+神经调控
+基因
+基因编辑
+基因治疗
+合成生物
+CRISPR
+mRNA
+细胞治疗
+生物医药
 
 
 # ═══════════════════════════════════════════════════════════════
 #                         国家与地区
 # ═══════════════════════════════════════════════════════════════
 
-[中国]
-国产
-中国
+[主要发达国家]
+/美国|加拿大|英国|法国|德国|意大利|日本|韩国|澳大利亚|新西兰|荷兰|瑞士|瑞典|挪威|丹麦|芬兰|西班牙|葡萄牙|奥地利|比利时|爱尔兰|以色列|新加坡|卢森堡|冰岛/ => 主要发达国家
 
-[东亚]
-日本
-新加坡
-韩国
-
-[北美]
-美国
-加拿大
-
-[西欧]
-法国
-英国
-德国
-
-/俄罗斯|俄国/ => 俄罗斯
-
-印度
+[政治经济金融军事头部国家]
+/美国|中国|俄罗斯|英国|法国|德国|日本|印度|巴西|沙特|伊朗|以色列|韩国|朝鲜|欧盟|北约|\bG7\b|\bG20\b|金砖|联合国|安理会|世界银行|\bIMF\b|国际货币基金组织|世贸组织|\bWTO\b/ => 政治经济金融军事头部国家
 
 
 # ═══════════════════════════════════════════════════════════════
 #                         科技领域
 # ═══════════════════════════════════════════════════════════════
 
-[AI 相关]
+[人工智能]
 /(?<![a-zA-Z])ai(?![a-zA-Z])/
 人工智能
+\bAIGC\b
+大模型
+机器学习
+深度学习
+自然语言处理
+计算机视觉
+生成式AI
+\bAGI\b
+通用人工智能
+/多模态|大语言模型|\bLLM\b/ => 大模型
+/智能体|\bAgent\b/ => 智能体
 
-[芯片]
+[芯片半导体]
 芯片
 光刻机
 半导体
+晶圆
+封测
+先进制程
+成熟制程
+\bEUV\b
+\bDUV\b
+光刻胶
+\bEDA\b
+IP核
+/碳化硅|氮化镓|\bSiC\b|\bGaN\b/ => 第三代半导体
 
-/水电|雅鲁藏布江/ => 水电
-/光伏|太阳能/ => 光伏
-核能
-能源
+[芯片设计]
+芯片设计
+数字芯片
+模拟芯片
+IC设计
+SoC设计
+射频芯片
+电源管理芯片
+功率半导体
+存储芯片
+传感器芯片
+/模拟IC|数字IC|混合信号/ => 芯片设计
 
-/自动驾驶|无人驾驶|智驾/ => 自动驾驶
+[芯片公司]
+歌尔
+歌尔股份
+兆易创新
+纳芯微
+南芯
+矽力杰
+/中芯国际|华虹|韦尔股份|北方华创|中微公司|澜起科技|紫光国微|卓胜微|圣邦股份|思瑞浦|士兰微|华润微|闻泰科技|三安光电|长电科技|通富微电|华天科技/ => 芯片公司
 
+[芯片品类]
+\bGPU\b
+\bSOC\b
+\bCPU\b
+\bHBM\b
+\bDRAM\b
+\bNAND\b
+闪存
+内存
+处理器
+算力芯片
+AI芯片
+/\bSoC\b|\bMCU\b|\bFPGA\b|\bASIC\b|\bDPU\b|\bNPU\b/ => 芯片品类
+
+[机器人]
 机器人
-/机械狗|四足/ => 机器狗
+人形机器人
 具身智能
+机械狗
+四足机器人
+工业机器人
+服务机器人
+/宇树|\bUnitree\b|智元|\bAgiBot\b|众擎|\bEngineAI\b|特斯拉\bOptimus\b|\bOptimus\b|\bFigure\b|波士顿动力|\bBoston Dynamics\b/ => 机器人公司
 
-/月球|登月|火星|宇宙|飞船|航天|空间站|卫星/ => 航天
+[无人机]
+无人机
+低空经济
+\beVTOL\b
+飞行汽车
+/大疆|\bDJI\b|亿航|\bEHang\b|小鹏汇天|峰飞|纵横股份|航天彩虹|中无人机/ => 无人机公司
 
-# 前沿科技
-量子
-脑机
-基因
+[GitHub]
+\bgithub\b
+\bGitHub\b
+开源
+开源项目
 
-# 产业政策
-新质生产力
+[特斯拉]
+/特斯拉|马斯克|\bTesla\b|\bElon Musk\b|\bModel 3\b|\bModel Y\b|\bModel S\b|\bModel X\b|\bCybertruck\b|\bFSD\b|\bOptimus\b/ => 特斯拉
+
+[SpaceX]
+/\bSpaceX\b|星链|\bStarlink\b|星舰|\bStarship\b|猎鹰|\bFalcon\b|龙飞船|\bDragon\b|猛禽发动机|\bRaptor\b/ => SpaceX
+
+[英伟达]
+/英伟达|黄仁勋|\bNVIDIA\b|\bGeForce\b|\bRTX\b|\bCUDA\b|\bJensen Huang\b|\bBlackwell\b|\bH100\b|\bH200\b|\bB200\b/ => 英伟达
+
+[AMD]
+/\bAMD\b|苏姿丰|\bLisa Su\b|锐龙|\bRyzen\b|霄龙|\bEPYC\b|\bRadeon\b|\bInstinct\b|\bMI300\b/ => AMD
+
+[苹果]
+/苹果|\bApple\b|库克|\bTim Cook\b|\biPhone\b|\biPad\b|\bMacBook\b|\biOS\b|\bVision Pro\b|\bAirPods\b|\bApple Intelligence\b/ => 苹果
+!水果
+!果园
+
+/\bOpenAI\b|\bChatGPT\b|\bSora\b|\bDALL-E\b|\bSam Altman\b|\bGreg Brockman\b/ => OpenAI
+/\bAnthropic\b|\bClaude\b|\bDario Amodei\b/ => Claude
+/\bMeta\b|\bFacebook\b|\bInstagram\b|\bWhatsApp\b|\bMark Zuckerberg\b/ => Meta
+/微软|\bMicrosoft\b|\bWindows\b|\bAzure\b|\bSatya Nadella\b|\bCopilot\b/ => 微软
+/谷歌|皮查伊|安卓|油管|\bGoogle\b|\bAlphabet\b|\bAndroid\b|\bChrome\b|\bYouTube\b|\bGemini\b|\bDeepMind\b|\bWaymo\b/ => 谷歌
+/亚马逊|\bAmazon\b|\bAWS\b|\bJeff Bezos\b/ => 亚马逊
+/台积电|\bTSMC\b/ => 台积电
+
+/三星|\bSamsung\b/ => 三星
+
+/英特尔|\bIntel\b/ => 英特尔
+
+/高通|\bQualcomm\b/ => 高通
+
+/博通|\bBroadcom\b/ => 博通
+
+/阿斯麦|\bASML\b/ => 阿斯麦
+
+
+
+# ═══════════════════════════════════════════════════════════════
+#                         股市金融
+# ═══════════════════════════════════════════════════════════════
+
+[美股港股]
+美股
+港股
+纳斯达克
+道琼斯
+标普500
+恒生指数
+恒生科技
+中概股
+/纽交所|\bNYSE\b|纳斯达克|\bNasdaq\b|港交所|\bHKEX\b/ => 美股港股市场
+
+[A股]
+A股
+上证
+沪指
+深证
+沪深
+创业板
+科创板
+北交所
+/上证指数|深证成指|沪深300|中证500|中证1000|创业板指|科创50/ => A股大盘
+
+[金融政策]
+/证监会|吴清|央行|中国人民银行|金融监管总局|财政部|国务院|国常会|政治局会议|中央经济工作会议|降准|降息|\bLPR\b|\bIPO\b|注册制|减持|分红|退市|印花税/ => 金融政策
+
+[明星股票]
+/贵州茅台|茅台|宁德时代|比亚迪|中芯国际|腾讯|阿里巴巴|美团|小米|京东|拼多多|英伟达|特斯拉|苹果|微软|谷歌|亚马逊|\bMeta\b|台积电|\bAMD\b|英特尔|寒武纪|中际旭创|工业富联|东方财富|中信证券|招商银行|中国平安|五粮液|长江电力|中国移动/ => 明星股票
